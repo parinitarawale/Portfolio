@@ -1,0 +1,146 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Elegant, rounded font */
+    background-color: #f9f3f6; /* Very soft pinkish background */
+    color: #333;
+    background: linear-gradient(135deg, #f9f3f6 0%, #f8b0d0 100%);
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #f8b0d0; /* Soft blush pink */
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px; /* Slightly spaced for elegance */
+    transition: color 0.3s;
+  }
+  
+  .navbar li a:hover {
+    color: #ff7d9f; /* Soft pastel pinkish-red hover */
+  }
+  
+  /* General section spacing */
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 65px;
+    margin-bottom: 10px;
+    color: #d19acb; /* Dusty rose color */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ff7d9f; /* Soft pastel pinkish-red */
+  }
+  
+  h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #ff7d9f; /* Same for subheadings */
+  }
+  
+  /* Cards container */
+  .cards,
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Individual card style */
+  .card,
+  .project {
+    background-color: #ffffff;
+    padding: 25px;
+    width: 550px;
+    border-radius: 20px; /* More rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    backdrop-filter: blur(5px);
+  }
+  
+  .card:hover,
+  .project:hover {
+    transform: translateY(-8px); /* Slight lift on hover */
+    box-shadow: 0 4px 20px rgba(255, 126, 159, 0.3); /* Soft coral shadow */
+  }
+  
+  /* Lists */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    color: #6a4d75; /* A muted purple for list items */
+  }
+  
+  /* Links */
+  a {
+    color: #d19acb; /* Dusty rose links */
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    color: #ff7d9f; /* Soft pastel pinkish-red */
+  }
+
+  
+  /* Button styles */
+  .button {
+    background-color: #ff7d9f; /* Soft pastel pinkish-red for buttons */
+    color: #fff;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 25px; /* Rounded edges */
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button:hover {
+    background-color: #f8b0d0; /* Lighter blush pink for hover */
+  }
+  
+  p{
+    font-size: 25px;
+  }
+
+  li{
+    font-size: 25px;
+  }
+
+  a{
+    font-size: 25px;
+  }
